@@ -1,0 +1,23 @@
+programa 
+{
+  funcao inicio() 
+  {
+    real a, b, soma, sub, mult, div
+
+    escreva("digite o primeiro número: ")
+    leia (a)
+
+    escreva("digite o segundo número: ")
+    leia (b)
+
+    soma = a + b // soma os dois termos
+    sub  = a - b // subtrai os dois termos 
+    mult = a * b // multiplica os dois termos
+    div  = a / b // divide os dois termos
+
+    escreva("\na soma dos dois números é: ", soma)
+    escreva("\na subtração dos dois números é: ", sub)
+    escreva("\na multiplicação dos dois números é: ", mult)
+    escreva("\na divisão dos dois números é: ", div)
+  }
+}
