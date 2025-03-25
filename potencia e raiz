@@ -1,0 +1,23 @@
+programa 
+{
+  inclua biblioteca Matematica --> mat
+  funcao inicio() 
+  {
+    real a, b, expoente, potencia, raiz
+
+    escreva("digite um número qualquer: ")
+    leia (a)
+
+    escreva("digite um expoente: ")
+    leia (expoente)
+
+    potencia = mat.potencia (a, expoente)
+    escreva("a potencia é: ", potencia)
+
+    escreva("\ndigite um número para calcular a raiz: ")
+    leia (b)
+
+    raiz = mat.raiz (b, 2)
+    escreva("a raiz é: ", raiz)
+  }
+}
