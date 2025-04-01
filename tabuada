@@ -1,0 +1,22 @@
+programa 
+{
+  funcao inicio() 
+  {
+    inteiro numero
+
+    escreva("digite um número qualquer: ")
+    leia (numero)
+
+    escreva("\na tabuáda do número é: ")
+    escreva("\n1 x ", numero, " é igual a: ", numero * 1)
+    escreva("\n2 x ", numero, " é igual a: ", numero * 2)
+    escreva("\n3 x ", numero, " é igual a: ", numero * 3)
+    escreva("\n4 x ", numero, " é igual a: ", numero * 4)
+    escreva("\n5 x ", numero, " é igual a: ", numero * 5)
+    escreva("\n6 x ", numero, " é igual a: ", numero * 6)
+    escreva("\n7 x ", numero, " é igual a: ", numero * 7)
+    escreva("\n8 x ", numero, " é igual a: ", numero * 8)
+    escreva("\n9 x ", numero, " é igual a: ", numero * 9)
+    escreva("\n10 x ", numero, " é igual a: ", numero * 10)
+  }
+}
