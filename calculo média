@@ -1,0 +1,33 @@
+programa 
+{
+  funcao inicio() 
+  {
+    real a, b, c, d, media
+
+    escreva("digite a primeira nota: ")
+    leia(a)
+    escreva("digite a segunda nota: ")
+    leia(b)
+    escreva("digite a terceira nota: ")
+    leia(c)
+    escreva("digite a quarta nota: ")
+    leia(d)
+
+    media = (a + b + c + d) / 4
+    escreva("\nsua média é: ", media)
+
+    se (media >= 0 <= 4)
+    (
+      escreva("\nvocê está reprovado.")
+    )
+    senao se (media > 4 < 7)
+    (
+      escreva("\nvocê está de recuperação.")
+    )
+
+    senao se (media >= 7 < 9)
+    (
+      escreva("\nvocê está aprovado.")
+    )
+  }
+}
