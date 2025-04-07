@@ -8,8 +8,9 @@ programa
     enquanto(contador > 0)
     {
     limpa()
-    escreva("detonação em: ", contador, "segundos.")
+    escreva("detonação em: ", contador, " segundo(s).")
     contador = contador - 1
+    Util.aguarde(1000) // aguarda 1 segundo a cada vez q ele imprimir na tela
     }
   }
 }
