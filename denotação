@@ -1,0 +1,15 @@
+programa 
+{
+  inclua biblioteca Util
+
+  funcao inicio() 
+  {
+    inteiro contador = 10
+    enquanto(contador > 0)
+    {
+    limpa()
+    escreva("detonação em: ", contador, "segundos.")
+    contador = contador - 1
+    }
+  }
+}
